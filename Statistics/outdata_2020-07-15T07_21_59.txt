@@ -1,0 +1,10 @@
+maya shpan; How many warriors fell on Ammunition Hill?;20;
+ The poet of 'Hatikva' is Naftaly Hertz;false;
+ The first Lebanon War ended on September 29 1982?;true;
+ Which city is the oldest?;Jerusalem;
+Did the war of attrition begin in 1969?;;
+When was Israel accepted as a member of the United Nations?;;
+ What is the number of Israelis who have won the Nobel Prize to date?;;
+ Americans ruled Israel in 1940;;
+ Where was the declaration ceremony for the establishment of the State of Israel?;;
+ Israel's first prime minister is Ben-Gurion ;false;

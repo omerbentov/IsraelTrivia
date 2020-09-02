@@ -1,0 +1,40 @@
+1;1; Who was Israel's first finance minister?;Eliezer Kaplan;Levi Eshkol;Pinchas Sapir;Simcha Erlich
+2;0; President of Israel serves for 5 years; false; true
+3;0; Israel's first prime minister is Ben-Gurion ;true ;false
+4;0; Americans ruled Israel in 1940;false;true
+5;1; The first Immigration began in?;1881;1907;1940;1920
+6;0; The first Minister of Defense of the State of Israel is Ben-Gurion;true;false
+7;1; Where did David Ben-Gurion move upon his retirement?;Kibbutz Sde Boker;Tel Aviv;Hadera;Eilat
+8;0; The poet of 'Hatikva' is Naftaly Hertz;true;false
+9;0; An IDF was established in 1948?;true; false
+10;1; What is the number of Israelis who have won the Nobel Prize to date?;8;6;9;12
+11;1; What is the first official name of Operation Entebbe?; Operation Jonathan;Operation Rage Ball;Operation Eitan Cliff;Operation Firecracker and Thunder
+12;0; Soup almonds were invented in Israel?;true;false
+13;1; Where was the declaration ceremony for the establishment of the State of Israel?;Jerusalem;Tel Aviv;Haifa;New-York
+14;1; What is the name of the Israeli legislature?;Supreme Court;The government;Law and Justice Committee;Knesset
+15;1; What was the name of the Hebrew fighting force before the establishment of the IDF?;Palmach;Etzel;Lechi;Machal
+16;0; Was Levi Eshkol the Prime Minister of Israel during the Six Day War?;true;false
+17;0; Is this Yitzhak Rabin in the picture?;true;false
+18;1; What year was the Six-Day War?;1967;1985;1932;1943
+19;1; Against whom did Israel fight in the war of attrition?;Egypt;Jorden;Syria;Iran
+20;0; Did Israel fight Hezbollah in the Second Lebanon War?;true;false
+21;1;When was Israel accepted as a member of the United Nations?;1957;1949;1959;1948 
+22;0;Was Abba Even the first Israeli ambassador to the UN?; True;false 
+23;1; Which countries joined Israel in the Sinai War in 1956?;Britain and France;US and Britain;France and Russia;Russia and Britain
+24;0;Did the war of attrition begin in 1969?;true;false 
+25;1; Which city is the oldest?;Beer Sheva;Yafo;Lod;Jerusalem
+26;1; How long did the War of Independence last?;1 year;28 months;20 months;8 months
+27;1; On what date did the War of Independence end?;January 15 1949;March 31 1949;July 20 1949;May 15 1949
+28;1; Who was the Chief of Staff in the First Lebanon War?;Refael Eitan;Moshe Levi;Dan Halutz;Ariel Sharon
+29;1; How many warriors fell on Ammunition Hill?;58;71;20;37
+30;1; When was Avigdor Kahalani injured?; The First Lebanon War;Yom Kippur War;The Kadesh Operation;Six Day War
+31;1; How long did the first chief of staff serve in the IDF?;1 year;7 years;3 months;2 years
+32;1; Who established the Palmach?;Ord Wingate;Yaakov Dori;Yigal Alon;Its'hak Sadeh
+33;1; Who apparently eliminated Abu Jihad?;Bnei Gantz;Yair Lapid;Moshe Ya'alon;Gabi Ashkenazi
+34;1; Which Hativa was almost destroyed in the Yom Kippur War?;500;401;188;9
+35;0; Was Shayetet 13 established in 1950?;true;false
+36;0; Was Avraham Arnan the first commander of a Sayeret Matkal?;true;false
+37;0; The first Lebanon War ended on September 29 1982?;true;false
+38;1;Who was the third Prime Minister of the State of Israel?;Benjamin Netanyahu;Moshe Sharet;David Ben Gurion;Lavi Eshkol
+39;0;Was Golda Meir the only female prime minister in the country's history?;true;false
+40;1;Who was the fourth president of the State of Israel?;Haim Weizmann;Yitzhak Ben Tzvi;Zalman Shazar;Efraim Katzir

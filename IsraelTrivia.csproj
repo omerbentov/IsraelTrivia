@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{46B3747F-857A-4221-A10B-02AE229A32CB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>IsraelTrivia</RootNamespace>
+    <AssemblyName>IsraelTrivia</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataItem.cs" />
+    <Compile Include="Forms\FormEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEntry.Designer.cs">
+      <DependentUpon>FormEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormLearning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormLearning.Designer.cs">
+      <DependentUpon>FormLearning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTrivia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTrivia.Designer.cs">
+      <DependentUpon>FormTrivia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTriviaResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTriviaResults.Designer.cs">
+      <DependentUpon>FormTriviaResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Question.cs" />
+    <Compile Include="Utils.cs" />
+    <EmbeddedResource Include="Forms\FormEntry.resx">
+      <DependentUpon>FormEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormLearning.resx">
+      <DependentUpon>FormLearning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTrivia.resx">
+      <DependentUpon>FormTrivia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTriviaResults.resx">
+      <DependentUpon>FormTriviaResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Statistics\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Files\gameData.txt" />
+    <Content Include="Files\infoData.txt" />
+    <None Include="Images\b7909061-c43b-4fa7-85b3-68c7f1bb0bab.jpg" />
+    <None Include="Images\Raising_the_Ink_Flag_at_Umm_Rashrash_%28cropped%29.jpg" />
+    <None Include="Images\111e4261-f00e-4fab-b485-ee5d6025afe4.jpg" />
+    <None Include="Images\header1_0.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,10 @@
+maya shpan;Was Golda Meir the only female prime minister in the country's history?;true;
+ Against whom did Israel fight in the war of attrition?;Egypt;
+ Was Levi Eshkol the Prime Minister of Israel during the Six Day War?;true;
+ Israel's first prime minister is Ben-Gurion ;false;
+ The first Immigration began in?;1881;
+ Did Israel fight Hezbollah in the Second Lebanon War?;true;
+ When was Avigdor Kahalani injured?;Yom Kippur War;
+ President of Israel serves for 5 years; false;
+ Who established the Palmach?;Yigal Alon;
+ An IDF was established in 1948?; false;

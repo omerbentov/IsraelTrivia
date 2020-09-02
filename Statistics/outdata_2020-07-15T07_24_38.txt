@@ -1,0 +1,10 @@
+maya shpan; Was Shayetet 13 established in 1950?;true;
+Did the war of attrition begin in 1969?;false ;
+ The first Minister of Defense of the State of Israel is Ben-Gurion;false;
+ Soup almonds were invented in Israel?;true;
+ Was Avraham Arnan the first commander of a Sayeret Matkal?;false;
+ What was the name of the Hebrew fighting force before the establishment of the IDF?;Etzel;
+ When was Avigdor Kahalani injured?;The Kadesh Operation;
+ Was Levi Eshkol the Prime Minister of Israel during the Six Day War?;;
+When was Israel accepted as a member of the United Nations?;;
+ How long did the first chief of staff serve in the IDF?;1 year;
